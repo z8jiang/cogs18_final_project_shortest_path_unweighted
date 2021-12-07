@@ -4,7 +4,7 @@ In a directed or undirected unweighted graph containing point A and B, find the 
 
 Design:
 - `adjacency_list()` : create the adjacency list representation of the input graph
-     - inputs: `graph_csv_file` 
+     - input: `graph_csv_file` 
      - returns: `adj_lst`
 - `breadth_first_search()` : use the adjacency list to traverse the input graph from the starting point to the end point
      - inputs: `start_label`, `end_label`, `adj_lst`
